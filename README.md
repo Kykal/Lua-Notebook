@@ -18,7 +18,7 @@ boolVarT = true
 boolVarF = false --Booleans
 
 intVar = 3 --Integer
-floatVar = 5.8 --Float
+floatVar = 5.8 --Float (Lua float precision is 13 decimals)
 
 stringVar = "Kykal" --String
 longStringVar = [[
