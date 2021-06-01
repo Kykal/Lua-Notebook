@@ -15,8 +15,8 @@ comment
 ``"As a rule, you should use print for quick-and-dirty programs, or for debugging, and write when you need full control over your output"``
 -[Programming in Lua 21.1](https://www.lua.org/pil/21.1.html)
 ```Lua
-io.write( "Full cotrol over your output" )
 print( "Quick-and-dirty programs, or for debugging" )
+io.write( "Full cotrol over your output" )
 ```
 
 
