@@ -24,7 +24,11 @@ comment
 ```
 
 # Variables
-There are ``Global`` and ``Local`` variables. The global ones are the variables that exist along all the program, otherwise, the local variables only exist in a certain part of our program.
+There are ``Global`` and ``Local`` variables. The global ones are the variables that exist along all the program, otherwise, the local variables only exist in a certain part of our program. You can declare a **Local variable** typing ``local`` before its name, if not the variable will be global as default.
+```Lua
+nameVar = "Kykal" -- Global variable
+local nameLocalVar = "localKykal" -- Local variable
+```
 
 # Data types
 Lua wil know the data type depending what information is inside a variable, but we have the next data types:
