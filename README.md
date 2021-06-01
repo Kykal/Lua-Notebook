@@ -112,8 +112,10 @@ not --This IS NOT that
 >   elseif (name == "John") and (lastName == "Smith") then
 >     io.write( "My complete name is John Smith" )
 >   else
->     io.write( "My name is ", name," ", lastname, " and my nickname is ", nickname )
+>     local myAge = 21
+>     io.write( "My name is ", name," ", lastname, " and my nickname is ", nickname, " and I am", myAge, "years old." )
 > end
-
-  --> My name is Alan Benavides and my nickname is Kykal
+  --> My name is Alan Benavides and my nickname is Kykal and I am 21 years old.
+> print( myAge )
+  --> nil
 ```
