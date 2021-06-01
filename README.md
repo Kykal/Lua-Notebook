@@ -11,6 +11,11 @@ comment
 ]]
 ```
 
+## Output
+``"As a rule, you should use print for quick-and-dirty programs, or for debugging, and write when you need full control over your output"
+-[Programming in Lua 21.1](https://www.lua.org/pil/21.1.html)``
+
+
 ## Data types
 Lua wil know the data type depending what information is inside a variable, but we have the next data types:
 ```Lua
