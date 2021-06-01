@@ -38,7 +38,7 @@ Lua wil know the data type depending what information is inside a variable, but 
   this is
   a very
   long string
-  ]] --String (Lua will respect the lines used
+  ]] --String (Lua will respect the lines used)
 ```
 
 
