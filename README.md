@@ -19,11 +19,15 @@ Lua wil know the data type depending what information is inside a variable, i.e.
 ```Lua
 name= 'Kykal'
 io.write( "Data type of 'name' variable: ", type(name) )
+
+digit= 4
+io.write( "Data type of 'digit' variable: ", type(digit) )
 ```
 
 Output:
-```Lua
+```
 Data type of 'name' variable: string
+Data type of 'digit' variable: number
 ```
 
 ### Lenght of a variable
@@ -33,6 +37,6 @@ name = 'Ivanovich'
 io.write( "Ivanovich variable lenght: ", #name )
 ```
 Output:
-```Lua
+```
 Ivanovich variable lenght: 9
 ```
