@@ -11,7 +11,6 @@ is a
 multiline
 comment
 ]]
-
 ```
 
 ## Data types
