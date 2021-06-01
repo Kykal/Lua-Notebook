@@ -171,7 +171,7 @@ It repeat the code inside the loop until the condition is true
 ```Lua
 > repeat
 >   io.write( "Is Earth a planet? " )
->   answer = string.lower( io.read() )
+>   answer = string.lower( io.read() )  -- Obtain an answer and turn all letters to lowercase, this is for an easy use for the condition
 > until ( answer == "yes" )
 > Earth is a planet
 
