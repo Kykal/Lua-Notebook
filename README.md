@@ -150,10 +150,10 @@ end
 
 ```Lua
 > number = 1
-> while ( i <= 10 ) do
+> while ( number <= 10 ) do
 >   io.write(number)
 >   number = number + 1 -- Lua does not support 'number++' nor 'number += 1'
->   if i == 8 then
+>   if number == 8 then
 >     break
 >   end
 > end
