@@ -138,4 +138,3 @@ canDrive = age < 18 = false : true
 
 io.write( toString(canDrive) )
 ```
-```
