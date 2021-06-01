@@ -188,7 +188,7 @@ Repeat the code inside the loop until the condition is reached
 > end
 ```
 
-```
+```Lua
 > for i=0, 10, 2 do
 >   print(i)
 > end
