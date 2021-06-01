@@ -135,7 +135,7 @@ end
 > end
   --> My name is Alan Benavides, my nickname is Kykal and I am 21 years old.
   
-> io.write( tostring(myAge) )
+> io.write( tostring(myAge) ) --Turn myAge variable from 'nil' value to '' value (nil value = empty string)
   -->       --We got nothing because myAge variable does not exist outside IF-Statement, so it return a 'nil' that equals to an empty variable.
 ```
 
