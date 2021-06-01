@@ -128,6 +128,6 @@ not --This IS NOT that
 > end
   --> My name is Alan Benavides, my nickname is Kykal and I am 21 years old.
   
-> io.write( toString(bool) )
+> io.write( toString(myAge) )
   -->       --We got nothing because myAge variable does not exist outside IF-Statement, so it return a 'nil' that equals to an empty variable.
 ```
