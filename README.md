@@ -131,11 +131,3 @@ not --This IS NOT that
 > io.write( tostring(myAge) )
   -->       --We got nothing because myAge variable does not exist outside IF-Statement, so it return a 'nil' that equals to an empty variable.
 ```
-
-```Lua
-age = 17
-
-canDrive = age < 18 = false : true
-
-io.write( toString(canDrive) )
-```
