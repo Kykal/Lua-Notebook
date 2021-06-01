@@ -61,3 +61,15 @@ The precision of a float variable is 13 decimals, i.e.:
   --> 1.1234567890123
   --> 1.1234567890123
 ```
+
+## Operators
+```Lua
+> io.write( "5 + 9 = ", 5+9 )
+  --> 14
+> io.write( "10 - 4 = ", 10-4 )
+ --> 6
+> io.write( "25 / 5 = ", 25/5 )
+ --> 5
+> io.write( "" )
+
+```
