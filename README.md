@@ -23,7 +23,7 @@ io.write( "Data type of 'name' variable: ", type(name) )
 intDigit= 4
 io.write( "Data type of 'intDigit' variable: ", type(intDigit) )
 
-floatDigit: 5.8
+floatDigit= 5.8
 io.write( "Data type of 'floatDigit' variable: ", type(floatDigit) )
 ```
 
