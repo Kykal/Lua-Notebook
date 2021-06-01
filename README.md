@@ -47,10 +47,7 @@ To know the lenght of a variable we are using just use ``#`` before the calling 
 ```Lua
 name = 'Ivánovich'
 io.write( "Ivanovich variable lenght: ", #name )
-```
-Output:
-```
-Ivanovich variable lenght: 9
+  -->Ivanovich variable lenght: 9
 ```
 
 ### Maxium float precision
@@ -61,9 +58,6 @@ numberExcedVar = 1.12345678901234 --14decimals
 
 io.write( numberVar )
 io.write( numberExcedVar )
-```
-Output:
-```
-1.1234567890123
-1.1234567890123
+  -->1.1234567890123
+  -->1.1234567890123
 ```
