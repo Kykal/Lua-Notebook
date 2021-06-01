@@ -108,11 +108,11 @@ not --This IS NOT that
 
 
 > if name == "John" then
->   io.write( "My name is John" )
-> elseif (name == "John") and (lastName == "Smith") then
->   io.write( "My complete name is John Smith" )
-> else
->   io.write( "My name is ", name," ", lastname, " and my nickname is ", nickname )
+>     io.write( "My name is John" )
+>   elseif (name == "John") and (lastName == "Smith") then
+>     io.write( "My complete name is John Smith" )
+>   else
+>     io.write( "My name is ", name," ", lastname, " and my nickname is ", nickname )
 > end
 
   --> My name is Alan Benavides and my nickname is Kykal
