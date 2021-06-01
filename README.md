@@ -68,10 +68,10 @@ The precision of a float variable is 13 decimals, i.e.:
   --> 14
 > io.write( 10 - 4 ) --Substract
   --> 6
-> io.write( 25 / 5 ) -Division
+> io.write( 25 / 5 ) --Division
   --> 5
-> io.write( 10*4 )
+> io.write( 10*4 ) --Multiplication
   --> 40
-> io.write( 16.4 % 8  )
+> io.write( 16.4 % 8  ) --Modulus
   --> 2.2
 ```
