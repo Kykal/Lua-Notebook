@@ -179,3 +179,11 @@ It repeat the code inside the loop until the condition is true
   --> Is Earth a planet? Yes
   --> Earth is a planet
 ```
+
+## for
+Repeat the code inside the loop until the condition is reached
+```Lua
+> for <starting value>, <ending value>, <increment> do  --NOTE: if no increment is typed, increment will be 1 by default.
+>   -- Your code 
+> end
+```
