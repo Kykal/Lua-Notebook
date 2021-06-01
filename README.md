@@ -1,5 +1,3 @@
-# lua
-
 ## Comments
 To make a comment while coding in Lua we need to use ``--`` before the comment, i.e.:
 
