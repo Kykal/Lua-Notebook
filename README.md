@@ -76,3 +76,19 @@ To know the lenght of a variable we are using just use ``#`` before the calling 
 ```
 
 # Conditionals
+
+### Relational operators
+```Lua
+> -- Greater than
+< -- Smaller than
+>= -- Grater than or equal to
+<= -- Smaller than or equal to
+== -- Is equal to
+~= -- Not equal to
+```
+### Logical operators
+```Lua
+and -- This AND that
+or -- This OR that
+not --This IS NOT that
+```
