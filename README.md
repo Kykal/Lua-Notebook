@@ -138,7 +138,7 @@ not --This IS NOT that
 > number = 1
 > while ( i <= 10 ) do
 >   io.write(number)
->   number = number + 1 -- Lua does not suppoer number++ nor number += 1
+>   number = number + 1 -- Lua does not support 'number++' nor 'number += 1'
 >   if i == 8 then
 >     break
 >   end
