@@ -17,6 +17,7 @@ comment
 ```Lua
 io.write( "Full cotrol over your output" )
 print( "Quick-and-dirty programs, or for debugging" )
+```
 
 
 ## Data types
