@@ -64,12 +64,14 @@ The precision of a float variable is 13 decimals, i.e.:
 
 ## Operators
 ```Lua
-> io.write( 5 + 9 )
+> io.write( 5 + 9 ) --Addition
   --> 14
-> io.write( 10 - 4 )
- --> 6
-> io.write( 25 / 5 )
- --> 5
+> io.write( 10 - 4 ) --Substract
+  --> 6
+> io.write( 25 / 5 ) -Division
+  --> 5
+> io.write( 10*4 )
+  --> 40
 > io.write( 16.4 % 8  )
- --> 2.2
+  --> 2.2
 ```
