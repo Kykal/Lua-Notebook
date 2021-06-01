@@ -18,20 +18,20 @@ Lua wil know the data type depending what information is inside a variable, i.e.
 
 ```Lua
 name= 'Kykal'
-io.write( "Data type of 'name' variable: ", type(name) )
+io.write( "1. Data type of 'name' variable: ", type(name) ) --1
 
 intDigit= 4
-io.write( "Data type of 'intDigit' variable: ", type(intDigit) )
+io.write( "2. Data type of 'intDigit' variable: ", type(intDigit) )--1
 
 floatDigit= 5.8
-io.write( "Data type of 'floatDigit' variable: ", type(floatDigit) )
+io.write( "3. Data type of 'floatDigit' variable: ", type(floatDigit) )--1
 ```
 
 Output:
 ```
-Data type of 'name' variable: string
-Data type of 'intDigit' variable: number
-Data type of 'floatDigit' variable: number
+1. Data type of 'name' variable: string
+2. Data type of 'intDigit' variable: number
+3. Data type of 'floatDigit' variable: number
 ```
 
 ### Lenght of a variable
