@@ -205,7 +205,7 @@ In Lua we use the term of 'Tables', like 'Arrays' in other languages.
 ```
 ```Lua
 > myTable = {} --Declare an empty table
-> myTable[-4] = 'ABCD'
+> myTable[-4] = 'ABCD'  -- We insert 'ABCD' value in memory space -4.
 > io.write( myTable[-4] )
   --> ABCD
 ```
