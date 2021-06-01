@@ -57,8 +57,8 @@ The precision of a float variable is 13 decimals, i.e.:
 > numberExcedVar = 1.12345678901234 --14decimals
 
 > io.write( numberVar )
-> io.write( numberExcedVar )
   --> 1.1234567890123
+> io.write( numberExcedVar )
   --> 1.1234567890123
 ```
 
