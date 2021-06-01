@@ -46,8 +46,8 @@ Lua wil know the data type depending what information is inside a variable, but 
 To know the lenght of a variable we are using just use ``#`` before the calling variable in the ``io.write()/print()`` function.
 ```Lua
 > name = 'Ivánovich'
-> io.write( "Ivanovich variable lenght: ", #name )
-  --> Ivanovich variable lenght: 9
+> io.write( "Ivánovich variable lenght: ", #name )
+  --> Ivánovich variable lenght: 9
 ```
 
 ### Maxium float precision
