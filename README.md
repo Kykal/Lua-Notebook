@@ -1,4 +1,4 @@
-## Comments
+# Comments
 To make a comment while coding in Lua we need to use ``--`` before the comment, i.e.:
 
 ```Lua
@@ -11,7 +11,7 @@ comment
 ]]
 ```
 
-## Output
+# Output
 ``"As a rule, you should use print for quick-and-dirty programs, or for debugging, and write when you need full control over your output"``
 -[Programming in Lua 21.1](https://www.lua.org/pil/21.1.html)
 ```Lua
@@ -24,7 +24,7 @@ comment
 ```
 
 
-## Data types
+# Data types
 Lua wil know the data type depending what information is inside a variable, but we have the next data types:
 ```Lua
 > boolVarT = true
@@ -42,7 +42,7 @@ Lua wil know the data type depending what information is inside a variable, but 
 ```
 
 
-### Lenght of a variable
+## Lenght of a variable
 To know the lenght of a variable we are using just use ``#`` before the calling variable in the ``io.write()/print()`` function.
 ```Lua
 > name = 'Ivánovich'
@@ -50,7 +50,7 @@ To know the lenght of a variable we are using just use ``#`` before the calling 
   --> Ivánovich variable lenght: 9
 ```
 
-### Maxium float precision
+## Maxium float precision
 The precision of a float variable is 13 decimals, i.e.:
 ```Lua
 > numberVar = 1.1234567890123 --13 decimals
@@ -62,7 +62,7 @@ The precision of a float variable is 13 decimals, i.e.:
   --> 1.1234567890123
 ```
 
-## Operators
+# Operators
 ```Lua
 > io.write( 5 + 9 ) --Addition
   --> 14
@@ -75,3 +75,5 @@ The precision of a float variable is 13 decimals, i.e.:
 > io.write( 16.4 % 8  ) --Modulus
   --> 2.2
 ```
+
+# Conditionals
