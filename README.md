@@ -134,6 +134,13 @@ not --This IS NOT that
 
 # Loops
 ## while()
+Repeat the code inside the loop **while** the condition is **true**
+```Lua
+while (<condition>) do
+    -- Your code here
+end
+```
+
 ```Lua
 > number = 1
 > while ( i <= 10 ) do
@@ -145,3 +152,6 @@ not --This IS NOT that
 > end
   --> 1234567
 ```
+
+## repeat-until
+It repeat the code inside 
