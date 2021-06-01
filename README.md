@@ -115,8 +115,7 @@ not --This IS NOT that
 The IF-Statement will compare between values that you give, if the comparison is true, will execute the code right below, if not will jump the IF condition
 ```Lua
 if <comparison> then
-  -- if the comparison is true, will execute
-  -- your code
+  -- Your code here
 end
 ```
 
