@@ -161,4 +161,9 @@ end
 ```
 
 ## repeat-until
-It repeat the code inside 
+It repeat the code inside the loop until the condition is true
+```Lua
+> repeat
+>   -- Your code here
+> until (<condition>)
+```
