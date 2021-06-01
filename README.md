@@ -21,7 +21,7 @@ intVar = 3 --Integer
 floatVar = 5.8 --Float
 
 stringVar = "Kykal" --String
-longString = [[
+longStringVar = [[
 this is
 a very
 long string
