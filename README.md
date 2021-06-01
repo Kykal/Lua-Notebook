@@ -37,7 +37,7 @@ Output:
 ### Lenght of a variable
 To know the lenght of a variable we are using just use ``#`` before the variable in the output function.
 ```Lua
-name = 'Ivanovich'
+name = 'Ivánovich'
 io.write( "Ivanovich variable lenght: ", #name )
 ```
 Output:
