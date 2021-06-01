@@ -71,5 +71,5 @@ The precision of a float variable is 13 decimals, i.e.:
 > io.write( 25 / 5 )
  --> 5
 > io.write( 16.4 % 8  )
-  --> 2.2
+ --> 2.2
 ```
