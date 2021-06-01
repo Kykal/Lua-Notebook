@@ -17,11 +17,11 @@ Lua wil know the data type depending what information is inside a variable, but 
 boolVarT = true
 boolVarF = false --Booleans
 
-intVar = 3
-floatVar = 5.8
+intVar = 3 --Integer
+floatVar = 5.8 --Float
 
-string = "Kykal"
-longString = [[
+stringVar = "Kykal" --String
+longString = [[ --String (Lua will respect the lines used
 this is
 a very
 long string
