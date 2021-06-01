@@ -203,7 +203,7 @@ In Lua we use the term of 'Tables', like 'Arrays' in other languages.
 > io.write( aTable[1] )
   --> A
 ```
-```
+```Lua
 > myTable = {} --Declare an empty table
 > myTable[-4] = 'ABCD'
 > io.write( myTable[-4] )
