@@ -46,6 +46,17 @@ Lua wil know the data type depending what information is inside a variable, but 
   long string
   ]] --String (Lua will respect the lines used)
 ```
+You can not call a bool variable just like that, if you do so Lua will return an error because Lua expected a string, not a boolean, for that you need to convert bool value into a string value, i.e.:
+```Lua
+myBool = true
+
+> io.write( myBool )
+  --> String expected, got boolean
+
+> io.write( toString(myBool) )
+  --> true
+
+```
 
 ### Maxium float precision
 The precision of a float variable is 13 decimals, i.e.:
