@@ -167,3 +167,10 @@ It repeat the code inside the loop until the condition is true
 >   -- Your code here
 > until (<condition>)
 ```
+
+```Lua
+> repeat
+>   io.write( "Is Earth a planet?" )
+>   answer = io.read()
+> until ( answer == "yes" )
+```
