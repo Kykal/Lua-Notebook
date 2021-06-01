@@ -197,7 +197,15 @@ Repeat the code inside the loop until the condition is reached
 
 # Tables (Arrays)
 In Lua we use the term of 'Tables', like 'Arrays' in other languages.
-**IMPORTANT:** In Lua, Tables starts from 1, not from 0 (like C/Python/etc)
+**IMPORTANT:** In Lua, Tables starts from 1 or from the starting point you decide.
+```Lua
+> aTable {1, 2, 3}
+> io.write( aTable[1] )
+  --> 1
+```
 ```
 > myTable = {} --Declare an empty table
-> 
+> myTable[-4] = 'ABCD'
+> io.write( myTable[-4] )
+  --> ABCD
+```
