@@ -12,25 +12,22 @@ comment
 ```
 
 ## Data types
-Lua wil know the data type depending what information is inside a variable, i.e.:
-
+Lua wil know the data type depending what information is inside a variable, but we have the next data types:
 ```Lua
-name= 'Kykal'
-io.write( "1. Data type of 'name' variable: ", type(name) ) --1
+boolVarT = true
+boolVarF = false --Booleans
 
-intDigit= 4
-io.write( "2. Data type of 'intDigit' variable: ", type(intDigit) ) --2
+intVar = 3
+floatVar = 5.8
 
-floatDigit= 5.8
-io.write( "3. Data type of 'floatDigit' variable: ", type(floatDigit) ) --3
+string = "Kykal"
+longString = [[
+this is
+a very
+long string
+]]
 ```
 
-Output:
-```
-1. Data type of 'name' variable: string
-2. Data type of 'intDigit' variable: number
-3. Data type of 'floatDigit' variable: number
-```
 
 ### Lenght of a variable
 To know the lenght of a variable we are using just use ``#`` before the calling variable in the ``io.write()/print()`` function.
