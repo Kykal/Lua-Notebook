@@ -42,3 +42,18 @@ Output:
 ```
 Ivanovich variable lenght: 9
 ```
+
+### Maxium float precision
+The precision of a float variable is 13 decimals, i.e.:
+```Lua
+numberVar = 1.1234567890123 --13 decimals
+numberExcedVar = 1.12345678901234 --14decimals
+
+io.write( numberVar )
+io.write( numberExcedVar )
+```
+Output:
+```
+1.1234567890123
+1.1234567890123
+```
