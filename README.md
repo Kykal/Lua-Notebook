@@ -21,11 +21,11 @@ intVar = 3 --Integer
 floatVar = 5.8 --Float
 
 stringVar = "Kykal" --String
-longString = [[ --String (Lua will respect the lines used
+longString = [[
 this is
 a very
 long string
-]]
+]] --String (Lua will respect the lines used
 ```
 
 
