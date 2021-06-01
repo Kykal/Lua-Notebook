@@ -143,9 +143,9 @@ end
 ## while()
 Repeat the code inside the loop **while** the condition is **true**
 ```Lua
-while (<condition>) do
-    -- Your code here
-end
+>  (<condition>) do
+>     -- Your code here
+> end
 ```
 
 ```Lua
