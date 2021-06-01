@@ -1,5 +1,18 @@
 # lua
 
+## Comments
+To make a comment while coding in Lua we need to use ``--`` before the comment, i.e.:
+
+```Lua
+--This is a inline comment
+--[This
+is a
+multiline
+comment
+]
+
+```
+
 ## Data types
 Lua wil know the data type depending what information is inside a variable, i.e.:
 
