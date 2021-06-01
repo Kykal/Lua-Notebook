@@ -199,7 +199,7 @@ Repeat the code inside the loop until the condition is reached
 In Lua we use the term of 'Tables', like 'Arrays' in other languages.
 **IMPORTANT:** In Lua, Tables starts from 1 or from the starting point you decide.
 ```Lua
-> aTable {'A', 'B', 'C'}
+> myTable {'A', 'B', 'C'}
 > io.write( aTable[1] )
   --> A
 ```
