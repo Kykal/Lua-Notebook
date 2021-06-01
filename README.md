@@ -21,10 +21,10 @@ name= 'Kykal'
 io.write( "1. Data type of 'name' variable: ", type(name) ) --1
 
 intDigit= 4
-io.write( "2. Data type of 'intDigit' variable: ", type(intDigit) ) --1
+io.write( "2. Data type of 'intDigit' variable: ", type(intDigit) ) --2
 
 floatDigit= 5.8
-io.write( "3. Data type of 'floatDigit' variable: ", type(floatDigit) ) --1
+io.write( "3. Data type of 'floatDigit' variable: ", type(floatDigit) ) --3
 ```
 
 Output:
