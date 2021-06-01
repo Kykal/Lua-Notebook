@@ -98,3 +98,22 @@ and -- This AND that
 or -- This OR that
 not --This IS NOT that
 ```
+
+## Examples
+### IF-Statement
+```Lua
+> nickname = "Kykal"
+> name = "Alan"
+> lastName = "Benavides"
+
+
+> if name == "John" then
+>   io.write( "My real name is Alan" )
+> elseif (name == "John") and (lastName == "Smith") then
+>   io.write( "My last name is Benavides" )
+> else
+>   io.write( "My name is ", name," ", lastname, " and my nickname is ", nickname )
+> end
+
+  --> My name is Alan Benavides and my nickname is Kykal
+```
