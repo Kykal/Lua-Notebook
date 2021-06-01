@@ -25,3 +25,14 @@ Output:
 ```Lua
 Data type of 'name' variable: string
 ```
+
+### Lenght of a variable
+To know the lenght of a variable we are using just use ``#`` before the variable in the output function.
+```Lua
+name = 'Ivanovich'
+io.write( "Ivanovich variable lenght: ", #name )
+```
+Output:
+```Lua
+Ivanovich variable lenght: 9
+```
