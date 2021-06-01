@@ -23,5 +23,5 @@ io.write( "Data type of 'name' variable: ", type(name) )
 
 Output:
 ```Lua
-string
+Data type of 'name' variable: string
 ```
