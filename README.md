@@ -66,7 +66,7 @@ The precision of a float variable is 13 decimals, i.e.:
 ```Lua
 > io.write( 5 + 9 ) --Addition
   --> 14
-> io.write( 10 - 4 ) --Substract
+> io.write( 10 - 4 ) --Subtraction
   --> 6
 > io.write( 25 / 5 ) --Division
   --> 5
