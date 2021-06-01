@@ -194,3 +194,10 @@ Repeat the code inside the loop until the condition is reached
 > end
   --> 0246810
 ```
+
+# Tables (Arrays)
+In Lua we use the term of 'Tables', like 'Arrays' in other languages.
+**IMPORTANT:** In Lua, Tables starts from 1, not from 0 (like C/Python/etc)
+```
+> myTable = {} --Declare an empty table
+> 
