@@ -173,7 +173,7 @@ It repeat the code inside the loop until the condition is true
 >   io.write( "Is Earth a planet? " )
 >   answer = string.lower( io.read() )
 > until ( answer == "yes" )
->  Earth is a planet
+> Earth is a planet
 
   --> Is Earth a planet? No
   --> Is Earth a planet? Yes
