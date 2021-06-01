@@ -208,4 +208,8 @@ In Lua we use the term of 'Tables', like 'Arrays' in other languages.
 > myTable[-4] = 'ABCD'  -- We insert 'ABCD' value in memory space -4.
 > io.write( myTable[-4] )
   --> ABCD
+
+> myTable[-1] = 'WXYZ'
+> io.write( myTable[-1] )
+  --> WXYZ
 ```
