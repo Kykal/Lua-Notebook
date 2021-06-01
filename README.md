@@ -23,6 +23,8 @@ comment
   --> helloLuaHi
 ```
 
+#Variables
+There are ``Global`` and ``Local`` variables. The global ones are the variables that exist along all the program, otherwise, the local variables only exist in a certain part of our program.
 
 # Data types
 Lua wil know the data type depending what information is inside a variable, but we have the next data types:
