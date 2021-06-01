@@ -116,6 +116,6 @@ not --This IS NOT that
 >     io.write( "My name is ", name," ", lastname, ", my nickname is ", nickname, " and I am", myAge, "years old." )
 > end
   --> My name is Alan Benavides, my nickname is Kykal and I am 21 years old.
-> print( myAge ) -- We can not use io.write() because Lua expected a strig.
+> print( myAge ) -- We can not use io.write() because Lua expected a string.
   --> nil -- Because is a local variable it only exist in our IF-Statement.
 ```
