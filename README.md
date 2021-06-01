@@ -18,7 +18,7 @@ Lua wil know the data type depending what information is inside a variable, i.e.
 
 ```Lua
 name= 'Kykal'
-io.write( type(name) )
+io.write( "Data type of 'name' variable: ", type(name) )
 ```
 
 Output:
