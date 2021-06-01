@@ -33,7 +33,7 @@ Output:
 ```
 
 ### Lenght of a variable
-To know the lenght of a variable we are using just use ``#`` before the calling variable in the output function.
+To know the lenght of a variable we are using just use ``#`` before the calling variable in the ``io.write()/print()`` function.
 ```Lua
 name = 'Ivánovich'
 io.write( "Ivanovich variable lenght: ", #name )
