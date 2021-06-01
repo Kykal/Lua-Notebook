@@ -215,6 +215,9 @@ In Lua we use the term of 'Tables', like 'Arrays' in other languages.
 > -- But what happen with [-2] and [-3] memory spaces?
 > -- Unlike we insert a value, those spaces will be 'nil'
 
+> --            [-4],     [-3],   [-2],   [-1]  -- Table position
+> -- myTable =  {'ABCD',  nil,    nil,    'WXYZ'}
+
 > io.write( tostring(myTable[-2]) ) -- As write() function expect a string, we need to turn 'nil' value into a string using tostring() function.
   --> nil
 > io.write( tostring(myTable[-3]) )
