@@ -187,3 +187,10 @@ Repeat the code inside the loop until the condition is reached
 >   -- Your code 
 > end
 ```
+
+```
+> for i=0, 10, 2 do
+>   print(i)
+> end
+  --> 0246810
+```
