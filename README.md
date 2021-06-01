@@ -23,7 +23,7 @@ comment
   --> helloLuaHi
 ```
 
-#Variables
+# Variables
 There are ``Global`` and ``Local`` variables. The global ones are the variables that exist along all the program, otherwise, the local variables only exist in a certain part of our program.
 
 # Data types
