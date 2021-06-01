@@ -128,6 +128,6 @@ not --This IS NOT that
 > end
   --> My name is Alan Benavides, my nickname is Kykal and I am 21 years old.
   
-> print( myAge ) -- We can not use io.write() because Lua expected a string.
-  --> nil -- Because is a local variable it only exist in our IF-Statement.
+> io.write( toString(bool) )
+  -->       --We got nothing because myAge variable does not exist outside IF-Statement, so it return a 'nil' that equals to an empty variable.
 ```
