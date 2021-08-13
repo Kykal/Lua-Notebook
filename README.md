@@ -1,3 +1,7 @@
+[<img align="right" alt="Lua" width="32px" src="https://raw.githubusercontent.com/github/explore/main/topics/lua/lua.png" />][Lua_Site]
+
+[Lua_Site]: https://www.lua.org/about.html
+
 # Comments
 To make a comment while coding in Lua we need to use ``--`` before the comment, i.e.:
 
